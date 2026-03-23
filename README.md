@@ -12,6 +12,7 @@ A web-based healthcare platform that streamlines early patient assessment and im
 ## Tech Stack
 
 ### Frontend
+
 - React 18 + Vite
 - Material-UI (MUI)
 - React Router
@@ -20,6 +21,7 @@ A web-based healthcare platform that streamlines early patient assessment and im
 - Leaflet Maps
 
 ### Backend
+
 - NestJS
 - MongoDB + Mongoose
 - JWT Authentication
@@ -28,6 +30,7 @@ A web-based healthcare platform that streamlines early patient assessment and im
 ## Setup Instructions
 
 ### Prerequisites
+
 - Node.js (v18+)
 - MongoDB (local or MongoDB Atlas)
 - npm or yarn
@@ -35,16 +38,19 @@ A web-based healthcare platform that streamlines early patient assessment and im
 ### Backend Setup
 
 1. Navigate to backend directory:
+
 ```bash
 cd backend
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Create `.env` file:
+
 ```env
 PORT=3000
 MONGODB_URI=mongodb://localhost:27017/medibridge
@@ -55,6 +61,7 @@ JWT_EXPIRES_IN=7d
 4. Start MongoDB (if running locally)
 
 5. Start the backend:
+
 ```bash
 npm run start:dev
 ```
@@ -64,21 +71,25 @@ Backend will run on `http://localhost:3000`
 ### Frontend Setup
 
 1. Navigate to root directory:
+
 ```bash
 cd ..
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Create `.env` file (optional):
+
 ```env
 VITE_API_URL=http://localhost:3000
 ```
 
 4. Start the frontend:
+
 ```bash
 npm run dev
 ```
@@ -88,7 +99,7 @@ Frontend will run on `http://localhost:5173`
 ## Usage
 
 1. **Register/Login**: Create an account as a patient or hospital
-2. **Patients**: 
+2. **Patients**:
    - Enter symptoms for AI analysis
    - View hospital resources and locations
    - Download PDF reports
@@ -119,9 +130,3 @@ MediBridge/
 - Backend: `cd backend && npm run start:dev`
 - Frontend: `npm run dev`
 - Build: `npm run build` (both frontend and backend)
-
-## License
-
-MIT
-
-
