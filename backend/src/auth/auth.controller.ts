@@ -47,4 +47,5 @@ export class AuthController {
     return req.user;
   }
 }
+//to add user and hospital registration and login functionality, and to protect the profile route with JWT authentication.
 
